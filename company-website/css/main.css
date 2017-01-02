@@ -1,0 +1,423 @@
+@charset "utf-8";
+* {
+    margin: 0;
+    padding: 0;
+    font-size: 12px;
+}
+
+body {
+    background-color: #f5f5f5;
+}
+
+.top {
+    width: 100%;
+    background: url(../images/top_bg.jpg) repeat-x;
+    height: 27px;
+}
+
+.top_content {
+    width: 1000px;
+    margin: 0 auto;
+    //text-align: right;
+}
+
+.top_content li {
+    float: right;
+    list-style-image: url(../images/li_bg.gif);
+    width: 70px;
+    // padding-left: 8px;
+    line-height: 27px;
+}
+
+.top_content a:link,
+.top_content a:visited {
+    text-decoration: none;
+    color: #8e8e8e;
+}
+
+.top_content a:hover,
+.top_content a:active {
+    text-decoration: none;
+    color: #900;
+}
+
+.wrap {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.logo {
+    height: 80px;
+    background: #fff;
+}
+
+.logo_left {
+    width: 200px;
+    float: left;
+}
+
+.logo_right {
+    width: 300px;
+    float: right;
+    color: #8e8e8e;
+    line-height: 80px;
+    background: url(../images/tel.jpg) left no-repeat;
+    padding-left: 30px;
+}
+
+.tel {
+    font-family: "microsoft yahei";
+    font-size: 16px;
+    color: #c00;
+}
+
+.nav {
+    background: rgb(118, 108, 114);
+    overflow: hidden;
+    width: 980px;
+    padding: 0 10px;
+    height: 40px;
+    border-radius: 3px 3px;
+}
+
+.nav_left {
+    float: left;
+    //background: #eee;
+}
+
+.nav_right {
+    float: right;
+    // background: #999;
+    height: 40px;
+    line-height: 40px;
+}
+
+.nav_right input {
+    width: 190px;
+    height: 25px;
+    margin-right: 100px;
+    background: url(../images/search.jpg) no-repeat right center #fff;
+    padding-right: 25px;
+    border: 1px solid #fff;
+    font-size: 16px;
+}
+
+.nav_left li {
+    width: 100px;
+    float: left;
+    list-style-type: none;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+}
+
+.nav_left li a:link,
+.nav_left li a:visited {
+    text-decoration: none;
+    color: #fff;
+    font-size: 16px;
+    font-family: "microsoft yahei"
+}
+
+.nav_left li a:hover,
+.nav_left li a:active {
+    text-decoration: none;
+    color: #ff0;
+    font-size: 16px;
+    font-family: "microsoft yahei"
+}
+
+.ad {
+    height: 310px;
+    overflow: hidden;
+}
+
+.main {
+    height: 250px;
+    background: #fff;
+    margin-top: 5px;
+}
+
+.news {
+    width: 340px;
+    height: 250px;
+    float: left;
+    border: 1px solid #e8e8e8;
+    // background: #0f6;	
+}
+
+.title {
+    height: 35px;
+    border-bottom: 2px solid #e8e8e8;
+}
+
+.title_left {
+    width: 70%;
+    font-family: "microsoft yahei";
+    font-size: 14px;
+    font-weight: bold;
+    color: #786f66;
+    float: left;
+    line-height: 35px;
+    padding-left: 20px;
+}
+
+.title_right {
+    width: 20%;
+    float: right;
+    line-height: 35px;
+    text-align: right;
+    padding-right: 10px;
+}
+
+.title_right a {
+    text-decoration: none;
+    color: #999;
+}
+
+.pic_news {
+    height: 80px;
+    margin-top: 10px;
+    line-height: 22px;
+}
+
+.pic_news img,
+.course_pic img {
+    float: left;
+    margin: 0 5px;
+}
+
+.pic_news a, .course_pic a {
+    color: #c00;
+    text-decoration: none;
+}
+
+.news_list {
+    margin-top: 20px;
+}
+
+.news_list li {
+    list-style-type: none;
+    background: url(../images/list.jpg) no-repeat;
+    padding-left: 10px;
+    margin: 8px;
+    border-bottom: 1px dotted #ccc;
+}
+
+.news_list a:link,
+.news_list a:visited {
+    text-decoration: none;
+    color: #000;
+}
+
+.news_list a:hover,
+.news_list a:active {
+    text-decoration: none;
+    color: #f00;
+}
+
+.news_list span {
+    float: right;
+}
+
+.courses {
+    width: 410px;
+    height: 250px;
+    float: left;
+    border: 1px solid #e8e8e8;
+    // background: #ff6;
+    margin: 0 7px;
+}
+
+.course_pic {
+    height: 120px;
+    margin-top: 10px;
+    line-height: 22px;
+}
+
+.course_type {
+	height: 37px;
+	width: 372px;
+	background: url(../images/product_type_bg.jpg) no-repeat;
+	margin: 20px auto;
+}
+
+.course_type li {
+	list-style-type: none;
+	float: left;
+	line-height: 37px;
+	margin: 0 15px;
+	text-align: center;
+}
+
+.sidebar {
+    width: 230px;
+    height: 250px;
+    float: left;
+    // background: #ff0;
+}
+
+.video {
+	height: 185px;
+	border: 1px solid #e8e8e8;
+}
+
+.video_content {
+	height: 150px;
+}
+
+.sidebar_ad {
+	height: 55px;
+	border: 1px solid #e8e8e8;
+	margin-top: 10px;
+}
+
+.copyright {
+	width: : 100%;
+	height: 200px;
+	background: #e8e8e8;
+	margin-top: 10px;
+	clear: both;
+}
+
+.copyright_content {
+	width: 1000px;
+	margin: 0 auto;
+	padding-top: 20px;
+
+}
+
+.copyright_content li {
+	list-style-type: none;
+	float: left;
+	width: 200px;
+	background: url(../images/line.png) no-repeat right center;
+	text-align:center;
+	line-height: 30px;
+	font-family: "microsoft yahei";
+}
+
+.copyright_content a {
+	text-decoration: none;
+	color: #999;
+	font-size: 18px;
+}
+
+.copyright_content li ul li a {
+	font-size: 14px;
+}
+
+.list_main {
+	min-height: 350px;
+	_height: 350px;
+	background-color: #fff;
+	margin-top: 10px;
+}
+
+.news_type {
+	width: 220px;
+	height: 350px;
+	border: 1px solid #e8e8e8;
+	// background: #9fc;
+	float:left;
+}
+
+.news_type h2 {
+	height: 35px;
+	line-height: 35px;
+	font-size: 14px;
+	font-family: "microsoft yahei";
+	color: #666;
+	background: url(../images/titile_bg.gif) repeat-x;
+	padding-left: 20px;
+}
+
+.news_type_content {
+	height: 365px;
+	background: url(../images/content_bg.gif) repeat-x;
+}
+
+.news_type_content li {
+	list-style-type: none;
+	height: 30px;
+	line-height: 30px;
+}
+
+.news_type_content a {
+	display: block;
+	color: #666;
+	text-decoration: none;
+	background: url(../images/li_bg.gif) no-repeat left center;
+	padding-left: 15px;
+}
+.news_type_content a:hover {
+	color: #009cdf;
+	background: url(../images/li_bg2.gif) no-repeat left center #f2f2f2;
+}
+
+
+.list_box
+{
+	width:770px;
+	min-height: 350px;
+	_height: 350px;
+	background: #fff;
+	border: 1px solid #e8e8e8;
+	float: right;
+
+}
+
+.list_box h1 {
+    font-family: "microsoft yahei";
+    font-size: 20px;
+    text-align: center;
+    margin: 10px 0;
+}
+
+.list_box h2
+{
+	font-size: 14px;
+	font-family: "microsoft yahei";
+	color: #666;
+	height: 35px;
+	line-height: 35px;
+	background: url(../images/type_bg.png) repeat-x;
+	padding-left: 20px;
+}
+
+.list_box_newsInfo {
+    color: #666;
+    text-align: center;
+    border-bottom: 1px dotted #666;
+}
+
+.list_box_newscontent{
+    font-size: 14px;
+    padding: 20px; 
+    line-height: 25px;
+    text-indent: 2em;
+}
+
+.page {
+	height: 40px;
+	margin-top: 10px;
+	text-align: center;
+}
+.page a {
+	display: inline-block;
+	border: 1px solid #e8e8e8;
+	text-decoration: none;
+	margin: 5px;
+	padding: 5px 10px;
+}
+
+.page a:link, .page a:visited
+{
+	color:#000;
+}
+
+.page a:hover, .page a:active
+{
+	color:#fff;
+	background: #cc1b1b;
+}
